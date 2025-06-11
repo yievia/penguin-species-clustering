@@ -46,7 +46,7 @@ This dataset does not include species labels, which is why unsupervised learning
 ## Visualizations
 
 ### Elbow Method for Optimal Clusters
-![Elbow Method](images/elbow_method.png)
+![Elbow Method](images/Elbow_Analysis.png)
 
 ### PCA Cluster Plot
 ![PCA Clusters](images/cluster_visual.png)
