@@ -66,9 +66,9 @@ This dataset does not include species labels, which is why unsupervised learning
 
 ## Key Insights
 
-- Clear separation into 4 clusters aligns with the known number of penguin species.
-- `Flipper length` and `body mass` played a major role in clustering.
-- PCA visualization confirms distinct natural groupings.
+- Although only 3 penguin species were expected (Adelie, Chinstrap, and Gentoo), clustering analysis suggests the presence of 4 distinct groups based on morphology.
+- All four features — body mass, flipper length, culmen depth, and culmen length — show clear separation between cluster labels.
+- This raises the possibility of a subspecies, data recording artifact, or behavioral variant among one of the known species.
 
 
 ## How to Run Locally
