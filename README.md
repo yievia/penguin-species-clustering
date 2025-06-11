@@ -49,7 +49,18 @@ This dataset does not include species labels, which is why unsupervised learning
 ![Elbow Method](images/Elbow_Analysis.png)
 
 ### PCA Cluster Plot
-![PCA Clusters](images/cluster_visual.png)
+
+### Culmen Length (mm) by Cluster
+![Culmen Length](images/culmen_length_mm_by_cluster.png)
+
+### Culmen Depth (mm) by Cluster
+![Culmen Depth](images/culmen_depth_mm_by_cluster.png)
+
+### Flipper Length (mm) by Cluster
+![Flipper Length](images/flipper_length_mm_by_cluster.png)
+
+### Body Mass (g) by Cluster
+![Body Mass](images/body_mass_g_by_cluster.png)
 
 ---
 
