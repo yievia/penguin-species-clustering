@@ -4,7 +4,7 @@
 
 This project was created to support ecological researchers in identifying penguin species in Antarctica using unsupervised machine learning. Due to missing species labels in the dataset, clustering techniques were used to uncover natural groupings based on penguin body measurements.
 
-By applying **K-Means Clustering** and visualizing results using **Principal Component Analysis (PCA)**, the project successfully revealed three distinct clusters that likely correspond to the known native species: Adelie, Gentoo, and Chinstrap.
+By applying **K-Means Clustering** and visualizing results using **Principal Component Analysis (PCA)**, the project successfully revealed at least three distinct clusters that likely correspond to the known native species: Adelie, Gentoo, and Chinstrap.
 
 The project demonstrates skills in:
 - Exploratory Data Analysis (EDA)
@@ -66,7 +66,7 @@ This dataset does not include species labels, which is why unsupervised learning
 
 ## Key Insights
 
-- Clear separation into 3 clusters aligns with the known number of penguin species.
+- Clear separation into 4 clusters aligns with the known number of penguin species.
 - `Flipper length` and `body mass` played a major role in clustering.
 - PCA visualization confirms distinct natural groupings.
 
