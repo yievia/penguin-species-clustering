@@ -1,10 +1,10 @@
-# 🐧 Penguin Species Clustering
+# Penguin Species Clustering
 
 This project uses unsupervised machine learning to identify natural groupings of penguins in Antarctica based on their physical characteristics. The analysis was done using **K-Means clustering** and visualized through **PCA**.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: Dr. Kristen Gorman and the Palmer Station, Antarctica LTER
 - **File**: `penguins.csv`
@@ -17,7 +17,7 @@ This project uses unsupervised machine learning to identify natural groupings of
 
 ---
 
-## 🛠️ Methods
+## Methods
 
 - **Data Cleaning**: Removed missing values, converted categorical to numerical.
 - **Standardization**: Used `StandardScaler` to normalize feature ranges.
@@ -28,7 +28,7 @@ This project uses unsupervised machine learning to identify natural groupings of
 
 ---
 
-## 🖼️ Visualizations
+## Visualizations
 
 ### Elbow Method for Optimal Clusters
 ![Elbow Method](images/elbow_method.png)
@@ -38,38 +38,30 @@ This project uses unsupervised machine learning to identify natural groupings of
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - Clear separation into 3 clusters aligns with the known number of penguin species.
 - `Flipper length` and `body mass` played a major role in clustering.
 - PCA visualization confirms distinct natural groupings.
 
----
 
-## 📁 Folder Structure
-
-<pre> ## 📁 Folder Structure penguin-species-clustering/ ├── data/ │ └── penguins.csv ├── notebooks/ │ └── penguin_clustering.ipynb ├── images/ │ ├── elbow_method.png │ └── cluster_visual.png ├── requirements.txt └── README.md </pre>
-
-
-## 🔧 How to Run Locally
+## How to Run Locally
 
 ```bash
 git clone https://github.com/yourusername/penguin-species-clustering.git
 cd penguin-species-clustering
 pip install -r requirements.txt
 jupyter notebook notebooks/penguin_clustering.ipynb
+```
+---
 
-📌 Tools Used
+## Tools Used
 Python
 pandas, numpy
 seaborn, matplotlib
 scikit-learn (KMeans, PCA)
 Jupyter Notebook
 
-👩‍💻 Author
-Xin Yie Ng
-Master in Data Science (Universiti Malaya) | Biotechnology Graduate
-DataCamp Portfolio
 
-📜 License
+## License
 This project is for educational and portfolio purposes.
