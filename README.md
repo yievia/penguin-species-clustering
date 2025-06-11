@@ -61,7 +61,7 @@ It also highlights the practical application of data science in solving real-wor
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/yourusername/penguin-species-clustering.git
+git clone https://github.com/yievia/penguin-species-clustering.git
 cd penguin-species-clustering
 pip install -r requirements.txt
 jupyter notebook notebooks/penguin_clustering.ipynb
