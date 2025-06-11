@@ -28,6 +28,8 @@ It also highlights the practical application of data science in solving real-wor
   - `body_mass_g`
   - `sex` (converted to numerical)
 
+This dataset does not include species labels, which is why unsupervised learning was used to uncover natural clusters.
+
 ---
 
 ## Methods
