@@ -20,7 +20,7 @@ It also highlights the practical application of data science in solving real-wor
 ## Dataset
 
 - **Source**: Dr. Kristen Gorman and the Palmer Station, Antarctica LTER
-- **File**: `penguins.csv`
+- **Access**: The CSV file (`penguins.csv`) is included in the `/data` folder.
 - **Features Used**:
   - `culmen_length_mm`
   - `culmen_depth_mm`
