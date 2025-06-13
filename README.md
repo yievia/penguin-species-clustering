@@ -70,15 +70,6 @@ This dataset does not include species labels, which is why unsupervised learning
 - All four features — body mass, flipper length, culmen depth, and culmen length — show clear separation between cluster labels.
 - This raises the possibility of a subspecies, data recording artifact, or behavioral variant among one of the known species.
 
-
-## How to Run Locally
-
-```bash
-git clone https://github.com/yievia/penguin-species-clustering.git
-cd penguin-species-clustering
-pip install -r requirements.txt
-jupyter notebook notebooks/penguin_clustering.ipynb
-```
 ---
 
 ## Tools Used
